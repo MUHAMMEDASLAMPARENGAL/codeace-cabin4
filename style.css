@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+}
+a.nav-link{
+    text-decoration: none;
+    color: black;
+    font-family: montserrat,Sans-serif;
+    font-weight: 700;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 14px;
+}
+.navbar-nav{
+    margin-right: 1em;
+}
+.navbar-brand{
+    margin-left: 1em;
+}
+.navbar{
+    background: #02010100;
+    margin-bottom: 3em;
+}
+.nav-item{
+    text-align: right;
+}
+.text-1{
+    color: #3f32b9;
+    font-family: open sans,Sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0;
+}
+.text-2{
+    color: #6559d3;
+    font-family: open sans,Sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0;
+}
+.text-3{
+    color: #b350ec;
+    font-family: montserrat,Sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0;
+}
+.text-4{
+    text-align: left;
+    color: #495371;
+    font-family: montserrat,Sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 28px;
+}
+.element-divider{
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    color: #5584AC33;
+}
+.news-icon{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.hindhu{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.mathrubhumi{
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+.header-banner{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+}
+.header-text{
+    align-items: center;
+}
+@media(max-width:1048px){
+    .text-1,.text-2,.text-3{
+        text-align: center;
+        font-size: 2em;
+    }
+}
+.text-5{
+    margin-bottom: 10px;
+    color: #495371;
+    font-family: nobile,Sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.content-head{
+    display: flex;
+    align-items: center;
+}
+.text-6{
+    font-family: didact gothic,Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #495371;
+    fill: #495371;
+}
+.text-7{
+    margin-bottom: 10px;
+    color: #495371;
+    font-family: nobile,Sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+.card-img-top{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+.card-title-1{
+    font-family: nobile,Sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+}
+.card-text-1{
+    color: #252525;
+    font-family: montserrat,Sans-serif;
+    font-size: 15px;
+    line-height: 1.8em
+}
+div.card-1{
+   padding: 15px;
+   align-items: center;
+   text-align: center;
+   background-color:  #ECE9F2;
+   border-radius: 20px 20px 20px 20px;
+   width:270px;
+   height: 399px;
+   margin-top: 15px;
+}
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px; 
+}
+.service-cards{
+    margin-bottom: 7em;
+}
+.text-9{
+    color: #495371;
+    font-family: nobile,Sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+.brand-text{
+    text-align: left;
+    margin-bottom: 3em;
+}
+.brand-img{
+    text-align: center;
+    vertical-align: middle;
+    padding:30px;
+}
+.Brokees{
+    padding-left: 1em;
+}
+@media(max-width:1048px){
+    .Brokees,.Soulfactors{
+        width: 125px;
+        height: 166px;
+    }
+    .brand-text{
+        text-align: center;
+    }
+
+}
+.brands{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6em;
+}
+.buisness-strategies{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6em;
+}
+.ideas{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6em;
+}
+.office-video{
+    width: 570px;
+    height: 370px;
+    box-shadow: 4px 2px 8px -2px rgb(0 0 0 / 50%);
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
+.banner-video{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 3em;
+   
+}
+.text-10{
+    color: #49537161;
+    font-family: nobile,Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    stroke: #fff;
+}
+.video-link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.card-title-2{
+    font-family: nobile,Sans-serif;
+    font-weight: 500;
+    font-size: 1.857em;
+    color: #000;
+}
+.card-text-2{
+    color: #000;
+    font-family: montserrat,Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+div.card-3{
+    padding: 40px 10px;
+    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 50%);
+    border-radius: 20px 20px 20px 20px;
+    background-color:rgb(218,239,248);
+    margin-bottom: 2em;
+    
+}
+div.card-4{
+    padding: 40px 10px;
+    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 50%);
+    border-radius: 20px 20px 20px 20px;
+    background-color:#F4E7F9;
+    margin-bottom: 2em;
+}
+.cards-2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7em;
+}
+.text-11{
+    margin-bottom: 3em;
+}
+.partners{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+@media(max-width:1048){
+    .cyberpark,.cafit,.startup,.startupmisson{
+        height: 80;
+        width: 30;
+    }
+}

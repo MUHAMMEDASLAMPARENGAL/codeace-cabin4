@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 402.8 235.04" style="enable-background:new 0 0 402.8 235.04;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFAB3D;}
+	.st1{fill:#431863;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Montserrat-ExtraBold';}
+	.st4{font-size:58.9298px;}
+	.st5{fill:#35134F;}
+	.st6{fill:#E89220;}
+	.st7{font-family:'Montserrat-SemiBold';}
+	.st8{font-size:36.5563px;}
+	.st9{fill:none;stroke:#431863;stroke-width:7.5763;stroke-linecap:round;stroke-linejoin:round;}
+	.st10{fill:none;stroke:#431863;stroke-width:7.5763;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,50.4208;}
+</style>
+<g id="BACKGROUND">
+</g>
+<g id="OBJECTS">
+	<g id="XMLID_305_">
+		<polygon id="XMLID_329_" class="st0" points="399.33,58.93 354.81,60.68 302.44,62.74 135.73,69.27 24.82,73.62 59.68,158.15     62.47,164.91 272.99,172.54 272.99,223.25 319.3,174.22 347.2,175.23   "></polygon>
+		<g id="XMLID_316_">
+			<g id="XMLID_323_">
+				<polygon id="XMLID_328_" class="st1" points="319.47,166.66 258.76,230.93 258.76,170.83 265.62,170.36     "></polygon>
+				<polygon id="XMLID_327_" class="st1" points="385.1,66.62 332.97,182.92 48.24,172.6 45.45,165.84 10.59,81.31 121.5,76.96       288.21,70.43 340.58,68.37     "></polygon>
+				<text id="XMLID_326_" transform="matrix(1 0 0 1 85.8819 151.978)" class="st2 st3 st4">hiring</text>
+				<polygon id="XMLID_325_" class="st5" points="385.1,66.62 332.97,182.92 48.24,172.6 45.45,165.84 307.45,158.74 340.58,68.37           "></polygon>
+				<polygon id="XMLID_324_" class="st5" points="319.47,166.66 258.76,230.93 258.76,229 287.38,186.14 258.76,186.14       258.76,173.46 265.62,170.36     "></polygon>
+			</g>
+			<polygon id="XMLID_322_" class="st5" points="288.21,70.43 282.59,92.2 125.33,97.1 124.95,95.1 121.5,76.96    "></polygon>
+			<g id="XMLID_317_">
+				<polygon id="XMLID_321_" class="st1" points="281.58,34.07 269.76,79.83 112.5,84.72 112.12,82.72 100.29,20.48 261.63,32.57           "></polygon>
+				<polygon id="XMLID_320_" class="st0" points="288.49,40.4 276.67,86.16 119.41,91.05 119.03,89.05 107.2,26.81 268.54,38.9           "></polygon>
+				<polygon id="XMLID_319_" class="st6" points="288.49,40.4 276.67,86.16 119.41,91.05 119.03,89.05 263.25,70.61 268.54,38.9           "></polygon>
+				<text id="XMLID_318_" transform="matrix(1 0 0 1 134.6255 74.6811)" class="st1 st7 st8">we’re</text>
+			</g>
+		</g>
+		<polygon id="XMLID_315_" class="st1" points="119.03,189.08 230.6,194.98 224.75,201.4 119.03,195.24   "></polygon>
+		<g id="XMLID_312_">
+			<polygon id="XMLID_314_" class="st0" points="300.67,45.68 338.26,33.59 329.62,50.74    "></polygon>
+			<polygon id="XMLID_313_" class="st1" points="302.35,39.34 323.52,26.37 314.03,20.04    "></polygon>
+		</g>
+		<g id="XMLID_309_">
+			<polygon id="XMLID_311_" class="st1" points="85.22,48.79 63.32,58.93 56.37,48.79    "></polygon>
+			<polygon id="XMLID_310_" class="st0" points="80.77,42.47 60.82,37.23 67.21,30.58    "></polygon>
+		</g>
+		<path id="XMLID_308_" class="st0" d="M95.22,195.24c0,5.52-4.48,10-10,10c-5.52,0-10-4.48-10-10c0-5.52,4.48-10,10-10    C90.74,185.24,95.22,189.72,95.22,195.24z"></path>
+		<path id="XMLID_307_" class="st0" d="M332.36,205.24c0,3.56-2.89,6.45-6.45,6.45c-3.56,0-6.45-2.89-6.45-6.45    c0-3.56,2.89-6.45,6.45-6.45C329.47,198.8,332.36,201.68,332.36,205.24z"></path>
+		<g id="XMLID_306_">
+			<g>
+				<line class="st9" x1="141.38" y1="11.75" x2="141.38" y2="11.75"></line>
+				<line class="st10" x1="191.58" y1="16.42" x2="216.68" y2="18.75"></line>
+				<line class="st9" x1="241.79" y1="21.09" x2="241.79" y2="21.09"></line>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
