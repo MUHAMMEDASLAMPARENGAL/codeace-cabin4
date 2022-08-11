@@ -30,6 +30,7 @@ a.nav-link{
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0;
+    animation: fadeinup .75s;
 }
 .text-2{
     color: #6559d3;
@@ -38,6 +39,7 @@ a.nav-link{
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0;
+    animation: fadeinup .75s;
 }
 .text-3{
     color: #b350ec;
@@ -46,6 +48,18 @@ a.nav-link{
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0;
+    animation: fadeinup .75s;
+}
+@keyframes fadeinup{
+    from {
+        transform: translate3d(0,40px,0);
+        opacity:0.2;
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+}
 }
 .text-4{
     text-align: left;
@@ -70,13 +84,18 @@ a.nav-link{
 .hindhu{
     margin-left: 15px;
     margin-right: 15px;
+    animation: fadeinup .75s;
 
 }
 .mathrubhumi{
     margin-left: 15px;
     margin-right: 15px;
+    animation: fadeinup 1.2s;
 
 
+}
+.header-image{
+    animation: fadeinup .75s;
 }
 .header-banner{
     margin-top: 3em;
@@ -129,20 +148,26 @@ a.nav-link{
 .card-img-top{
     width: 50px;
     height: 50px;
-    margin-bottom: 15px;
     margin-top: 30px;
+    margin-bottom: 15px;
     text-align: center;
+    position:relative;
+    z-index: 10;
 }
 .card-title-1{
     font-family: nobile,Sans-serif;
     font-size: 27px;
     font-weight: 700;
+    position:relative;
+    z-index: 10;
 }
 .card-text-1{
     color: #252525;
     font-family: montserrat,Sans-serif;
     font-size: 15px;
-    line-height: 1.8em
+    line-height: 1.8em;
+    position:relative;
+    z-index: 10;
 }
 div.card-1{
    padding: 15px;
@@ -153,6 +178,35 @@ div.card-1{
    width:270px;
    height: 399px;
    margin-top: 15px;
+   animation: fadeinup 1.5s;
+   position: relative;
+   z-index: 10;
+   overflow: hidden;
+   
+}
+.card-1::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height:140%;
+    background: linear-gradient(#00ccff,#d400d4);
+    animation: animate 4s linear infinite;
+}
+.card-1::after{
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: #fff;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
 }
 .card {
     margin: 0 auto;
