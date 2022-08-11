@@ -91,6 +91,9 @@ a.nav-link{
         text-align: center;
         font-size: 2em;
     }
+    .text-6,.text-9{
+        text-align: center;
+    }
 }
 .text-5{
     margin-bottom: 10px;
@@ -103,6 +106,7 @@ a.nav-link{
 .content-head{
     display: flex;
     align-items: center;
+    margin-bottom: 5em;
 }
 .text-6{
     font-family: didact gothic,Sans-serif;
@@ -269,10 +273,70 @@ div.card-4{
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 7em;
 }
 @media(max-width:1048){
     .cyberpark,.cafit,.startup,.startupmisson{
         height: 80;
         width: 30;
     }
+}
+.footer{
+    background-color: #09091A;;
+}
+.divider{
+    padding: 0 0 0 15px;
+    border-style: solid;
+    border-width: 0 0 0 3px;
+    border-color: coral;
+}
+   
+.text-12{
+    color: #fff;
+    font-family: montserrat,Sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+.footer-bar{
+    padding: 78px 0 78px 0;
+}
+.text-13{
+    color: #fff;
+    font-family: montserrat,Sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+.divider-1{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #fff;
+    display: block;
+}
+.logo-footer{
+    margin-bottom: 3em;
+}
+.social-media{
+    margin-bottom: 1em;
+}
+.text-14{
+    font-family: montserrat,Sans-serif;
+    font-size: .87em;
+    color: #fff;
+    padding-bottom: 1em;
+}
+.terms-link{
+    text-decoration: none;
+    font-family: montserrat,Sans-serif;
+    font-size: .87em;
+    color: #fff;
+}
+.terms-link:hover{
+    color: #854E36;
+}
+.USEFULL-LINKS{
+    margin-bottom: 3em;
 }
