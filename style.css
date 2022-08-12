@@ -144,6 +144,7 @@ a.nav-link{
     font-weight: 700;
     line-height: 40px;
     text-align: center;
+    animation: fadeinup 1.5s;
 }
 .card-img-top{
     width: 50px;
@@ -222,6 +223,7 @@ div.card-1{
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 60px;
+    animation: fadeinup 1.5s;
 
 }
 .brand-text{
@@ -235,7 +237,22 @@ div.card-1{
 }
 .Brokees{
     padding-left: 1em;
+    animation: fadeinleft 2s;
 }
+.Soulfactors{
+    animation: fadeinleft 2s;
+}
+@keyframes fadeinleft {
+    0% {
+       opacity: 0;
+       transform: translateX(-50px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }   
+
 @media(max-width:1048px){
     .Brokees,.Soulfactors{
         width: 125px;
@@ -329,8 +346,41 @@ div.card-4{
     justify-content: center;
     margin-bottom: 7em;
 }
+.cyberpark{
+    animation-name: fadein 1.5s;
+    animation: fadeinup 1.5s;
+}
+.cyberpark:hover{
+    opacity: 0.5;
+}
+.cafit{
+    animation-name: fadein 1.5s;
+    animation: fadeinup 1.5s;
+}
+.cafit:hover{
+    opacity: 0.5;
+}
+.startup{
+    animation-name: fadein 1.5s;
+    animation: fadeinup 1.5s;
+}
+.startup:hover{
+    opacity: 0.5;
+}
+.startupkerala{
+    animation-name: fadein 1.5s;
+    animation: fadeinup 1.5s;
+}
+.startupkerala:hover{
+    opacity: 0.5;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
 @media(max-width:1048){
-    .cyberpark,.cafit,.startup,.startupmisson{
+    .cyberpark,.cafit,.startup,.startupkerala{
         height: 80;
         width: 30;
     }
