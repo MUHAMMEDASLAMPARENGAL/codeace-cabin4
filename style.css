@@ -157,7 +157,7 @@ a.nav-link{
 }
 .card-title-1{
     font-family: nobile,Sans-serif;
-    font-size: 27px;
+    font-size: 1.688rem;
     font-weight: 700;
     position:relative;
     z-index: 10;
@@ -176,7 +176,6 @@ div.card-1{
    text-align: center;
    background-color:  #ECE9F2;
    border-radius: 20px 20px 20px 20px;
-   width:270px;
    height: 399px;
    margin-top: 15px;
    animation: fadeinup 1.5s;
