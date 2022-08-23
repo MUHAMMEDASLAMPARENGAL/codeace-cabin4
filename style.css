@@ -1,5 +1,10 @@
+html{
+    overflow-x: hidden;
+}
 body{
     margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 a.nav-link{
     text-decoration: none;
@@ -157,7 +162,7 @@ a.nav-link{
 }
 .card-title-1{
     font-family: nobile,Sans-serif;
-    font-size: 1.688rem;
+    font-size: 27px;
     font-weight: 700;
     position:relative;
     z-index: 10;
@@ -259,6 +264,9 @@ div.card-1{
     }
     .brand-text{
         text-align: center;
+    }
+    .body,.html{
+    overflow-x: hidden;
     }
 
 }
